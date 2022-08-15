@@ -1,4 +1,8 @@
-<form action="/answer" data-turbo="false">
-  <input type="text" name="???key">
-  <input type="submit" value="Ask!">
-</form>
+<div class="container">
+  <h1>Stupid Coaching</h1>
+  <%# form to get user input %>
+  <form action="/answer" data-turbo="false">
+    <div class="mb-3"><input class="form-control" type="text" name="message"></div>
+    <div class="mb-3"><input class="btn btn-primary p-3" type="submit" value="Ask!"></div>
+  </form>
+</div>
